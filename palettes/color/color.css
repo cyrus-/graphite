@@ -1,0 +1,92 @@
+#color-view {
+  border-radius: 5px;
+  border: 1px solid #DDDDDD;
+  width: 75px;
+  height: 75px;
+  margin: 5px;
+}
+
+#color-view.err {
+  border: 1px solid red;
+  background-color: white;
+}
+
+#err-icon {
+  color: #DDDDDD;
+  font-size: 18pt;
+  text-align: center;
+  width: 75px;
+}
+
+#selector-div {
+  margin: 5px;
+  vertical-align: top;
+}
+
+#rgb {
+  margin: 3px;
+  text-align: right;
+}
+
+.rgb-entry {
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#rgb-entry-b {
+  margin-right: 0px;
+}
+
+.rgb-num {
+  font-weight: normal;
+}
+
+.color_swatch {
+  height: 12px;
+  width: 12px;
+  border: 1px solid #000;
+  margin: 2px;
+  float: left;
+  cursor: pointer;
+  line-height: 12px;
+  display: inline-block;
+}
+
+body {
+  margin: 0px;
+  font-family: Arial, sans-serif;
+}
+
+#main {
+  margin: 5px;
+}
+
+#entry {
+  width: 100%;
+  border: 1px solid #DDDDDD;
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+  font-size: 12pt;
+}
+
+#entry-div {
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.err {
+  background-color: pink;
+}
+
+.passed {
+  background-color: lightgreen;
+}
+
+.failed {
+  background-color: pink;
+}

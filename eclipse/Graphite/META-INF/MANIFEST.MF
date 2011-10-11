@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Graphite
+Bundle-SymbolicName: edu.cmu.cs.graphite;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: edu.cmu.cs.graphite.core.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jdt.ui,
+ org.eclipse.jface.text,
+ org.eclipse.jdt.core
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

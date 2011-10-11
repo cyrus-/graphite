@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>Graphite: Color Palette</title>
+		<link rel="stylesheet" type="text/css" href="color.css" />
+
+		<script src="../../js/graphite.js" type="text/javascript"></script>
+		<script src="../lib/jquery.min.js" type="text/javascript"></script>
+		<script src="../lib/jquery.watermark.js" type="text/javascript"></script>
+		<style type="text/css">
+			.watermark_container {
+				width: 100%; /* fix issue with watermark wrapper */
+			}
+		</style>
+		<script src="./rgbcolor.js" type="text/javascript"></script>
+		<script src="./color.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="main">
+			<input type="text" id="entry" class="jq_watermark" title="Enter any valid CSS color string." tabindex="1" />
+			<table id="selector">
+				<tr>
+					<td id="color-view"><div id="err-icon">?</div></td>
+					<td id="selector-div"></td>
+				</tr>
+			</table>
+			<div id="rgb">
+				<div class="rgb-entry" id="rgb-entry-r">R: <span id="r" class="rgb-num">0</span></div>
+				<div class="rgb-entry" id="rgb-entry-g">G: <span id="g" class="rgb-num">0</span></div>
+				<div class="rgb-entry" id="rgb-entry-b">B: <span id="b" class="rgb-num">0</span></div>
+			</div>
+		</div>
+	</body>
+</html>

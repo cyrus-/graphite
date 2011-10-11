@@ -1,0 +1,170 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, sans-serif;
+}
+
+td {
+	padding: 0px;
+}
+
+table {
+	border-spacing: 0px;
+}
+
+#main {
+  padding: 0px;
+}
+
+#sidebar {
+	padding: 0px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	font-family: Arial, sans-serif;
+	font-size: 8pt;
+	/*border: 1px solid lightgrey;*/
+	margin: 0px;
+}
+
+.sidebar-table {
+	font-size: 8pt;
+	overflow-y: scroll;
+}
+
+#entry {
+  width: 100%;
+  border: 1px solid #DDDDDD;
+  border-radius: 5px;
+  padding: 0px;
+  outline: none;
+  font-size: 12pt;
+}
+
+.watermark_container {
+  display: inline-block;
+}
+
+#entry-div {
+  width: 100%;
+}
+
+#flags {
+	white-space: nowrap;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 11pt;
+}
+
+#flags label {
+	margin-left: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+#test-area-table {
+  width: 100%;
+  border-spacing: 0px;
+}
+
+#test-area-table td {
+  padding: 0px;
+  margin: 0px;
+}
+
+.col1 {
+  width: 50%;
+  border-right: 1px solid #DDDDDD;
+  padding-right: 5px !important;
+  outline: none;
+}
+
+.col2 { 
+  padding-left: 5px !important;
+  width: 50%;
+}
+
+.new-test {
+  border: 1px solid #DDDDDD;
+  outline: none;
+  width: 100%;
+}
+
+.label-input-label {
+  color: #DDDDDD;
+}
+
+.no-tests {
+  font-style: italic;
+  color: maroon;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 10pt;
+}
+
+.test-list {
+  vertical-align: top;
+}
+
+.empty-str {
+  font-style: italic;
+}
+
+.err {
+  background-color: rgb(255, 192, 203);
+}
+
+.passed {
+  background-color: rgb(144, 238, 144); /* lightgreen */
+}
+
+.failed {
+  background-color: rgb(255, 192, 203); /* pink */
+}
+
+.test-container {
+  padding: 2px;
+  padding-left: 5px;
+  border-radius: 5px;
+  margin-top: 1px;
+  cursor: pointer;
+}
+
+.test-str {
+	white-space: pre-wrap;
+}
+
+.test-delete {
+	float: right;
+	display: inline-block;
+	padding-left: 6px;
+	padding-right: 6px;
+	margin-right: 1px;
+	background: white;
+	color: red;
+	border-radius: 5px;
+	visibility: hidden;
+}
+
+.test-container:hover > .test-delete {
+	visibility: visible;
+} 
+
+#key {
+  text-align: center;
+  padding: 0px;
+  margin-top: 3px;
+}
+
+#patch {
+  background: rgb(144, 238, 144); /* lightgreen */
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+#patch-label {
+  display: inline-block;
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="Graphite"
+         name="Graphite"
+         point="org.eclipse.jdt.ui.javaCompletionProposalComputer">
+      <javaCompletionProposalComputer
+            activate="true"
+            categoryId="org.eclipse.jdt.ui.defaultProposalCategory"
+            class="edu.cmu.cs.graphite.core.CompletionProposalComputer">
+      </javaCompletionProposalComputer>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="edu.cmu.cs.graphite.preferences.GraphiteInitializer">
+      </initializer>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="edu.cmu.cs.graphite.preferences.GraphitePreferencePage"
+            id="edu.cmu.cs.graphite.preferencePage"
+            name="Graphite">
+      </page>
+   </extension>
+</plugin>
