@@ -5,14 +5,9 @@ An active code completion system for Java.
 * Video: http://www.cs.cmu.edu/~comar/graphite-demo.mp4
 * Paper draft: http://www.cs.cmu.edu/~comar/graphite-icse12.pdf
 
-Contact
--------
-* Cyrus Omar <comar@cs.cmu.edu>
-* YoungSeok Yoon <youngseok@cs.cmu.edu>
-
 Plug-In Installation
 --------------------
-The .jar file in /eclipse/plugins directory can be dropped into the dropins directory in your Eclipse installation. You'll see a Graphite entry in the Eclipse Preferences pane if it worked.
+The .jar file in the /eclipse/plugins directory can be dropped into the dropins directory in your Eclipse installation. You'll see a Graphite entry in the Eclipse Preferences pane if it worked.
 
 The @GraphitePalette Annotation
 -------------------------------
@@ -29,3 +24,8 @@ Plug-In Development
 The /eclipse directory can be imported as a project into Eclipse if you have the Plug-In Development tools installed (you can find it using Eclipse's built-in plug-in installer, for example.)
 
 Pretty simple all-around! Contact us if you have any trouble.
+
+Contact
+-------
+* Cyrus Omar <comar@cs.cmu.edu>
+* YoungSeok Yoon <youngseok@cs.cmu.edu>
