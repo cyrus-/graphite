@@ -3,7 +3,6 @@ Graphite
 An active code completion system for Java.
 
 * Video: http://www.cs.cmu.edu/~comar/graphite-demo.mp4
-* YouTube version (lower-res, sorry): http://www.youtube.com/watch?v=FfCoXQEHGAI
 * Paper draft: http://www.cs.cmu.edu/~comar/graphite-icse12.pdf
 
 Contact
