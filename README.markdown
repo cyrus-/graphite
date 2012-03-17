@@ -1,6 +1,6 @@
 Graphite
 --------
-An active code completion system for Java. See the webpage for more information, a video and a paper.
+An active code completion system for Java. See the webpage for more information, a video and a paper:
 
   http://www.cs.cmu.edu/~NatProg/graphite.html
 
@@ -26,8 +26,8 @@ Pretty simple all-around! Contact us if you have any trouble.
 
 Contributors
 ------------
-* Cyrus Omar <comar@cs.cmu.edu> <http://www.cs.cmu.edu/~comar>
-* YoungSeok Yoon <youngseok@cs.cmu.edu> <http://www.cs.cmu.edu/~yyoon1>
+* Cyrus Omar <http://www.cs.cmu.edu/~comar>
+* YoungSeok Yoon <http://www.cs.cmu.edu/~yyoon1>
 
 Citation
 --------
