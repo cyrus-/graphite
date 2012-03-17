@@ -1,21 +1,20 @@
 Graphite
 --------
-An active code completion system for Java.
+An active code completion system for Java. See the webpage for more information, a video and a paper.
 
-* Video: http://www.cs.cmu.edu/~comar/graphite-demo.mp4
-* Paper draft: http://www.cs.cmu.edu/~comar/graphite-icse12.pdf
+  http://www.cs.cmu.edu/~NatProg/graphite.html
 
-Plug-In Installation
---------------------
+Installation
+------------
 The .jar file in the /eclipse/plugins directory can be dropped into the dropins directory in your Eclipse installation. You'll see a Graphite entry in the Eclipse Preferences pane if it worked.
 
-The @GraphitePalette Annotation
--------------------------------
-To annotate your Java classes with the GraphitePalette annotation, its definition must be available. This is available as a .jar file in /java.
+Annotation
+----------
+To annotate your Java classes with the @GraphitePalette annotation, its definition must be available. This is available as a .jar file in /java.
 
 Palette Development
 -------------------
-Palettes are written using the standard browser-based stack. The graphite.js file found in the js/ directory must be included to support integration into the editor using Graphite (and debugging of Graphite API calls in the browser.)
+Palettes are written using the standard browser-based HTML5 stack. The graphite.js file found in the js/ directory must be included to support integration into the editor using Graphite (and debugging of Graphite API calls in the browser.)
 
 Example palettes are available in the palettes directory.
 
@@ -25,7 +24,14 @@ The /eclipse directory can be imported as a project into Eclipse if you have the
 
 Pretty simple all-around! Contact us if you have any trouble.
 
-Contact
--------
-* Cyrus Omar <comar@cs.cmu.edu>
-* YoungSeok Yoon <youngseok@cs.cmu.edu>
+Contributors
+------------
+* Cyrus Omar <comar@cs.cmu.edu> <http://www.cs.cmu.edu/~comar>
+* YoungSeok Yoon <youngseok@cs.cmu.edu> <http://www.cs.cmu.edu/~yyoon1>
+
+Citation
+--------
+If you use Graphite in an academic paper, we'd appreciate a citation:
+
+Cyrus Omar, YoungSeok Yoon, Thomas D. LaToza, Brad A. Myers, Active Code Completion. ICSE'2012: 34nd International Conference on Software Engineering, Zurich, Switzerland, 2-9 June 2012. To appear.
+
