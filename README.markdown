@@ -33,5 +33,10 @@ Citation
 --------
 If you use Graphite in an academic paper, we'd appreciate a citation:
 
-Cyrus Omar, YoungSeok Yoon, Thomas D. LaToza, Brad A. Myers, Active Code Completion. ICSE'2012: 34nd International Conference on Software Engineering, Zurich, Switzerland, 2-9 June 2012. To appear.
+Cyrus Omar, YoungSeok Yoon, Thomas D. LaToza, Brad A. Myers, [Active Code Completion](http://www.cs.cmu.edu/~comar/graphite-icse12.pdf). ICSE'2012: 34nd International Conference on Software Engineering, Zurich, Switzerland, 2-9 June 2012. To appear.
 
+License
+-------
+THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS ECLIPSE PUBLIC LICENSE ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
+
+The full license can be viewed at http://www.eclipse.org/org/documents/epl-v10.html.
