@@ -37,6 +37,5 @@ Cyrus Omar, YoungSeok Yoon, Thomas D. LaToza, Brad A. Myers, [Active Code Comple
 
 License
 -------
-THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS ECLIPSE PUBLIC LICENSE ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
+The code is provided under the terms of the Eclipse Public License - v 1.0. The full license can be viewed at http://www.eclipse.org/org/documents/epl-v10.html.
 
-The full license can be viewed at http://www.eclipse.org/org/documents/epl-v10.html.
