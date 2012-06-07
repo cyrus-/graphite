@@ -338,5 +338,5 @@ $(function() {
 	
 	processSelection();    
 	runTests();
-    entry[0].focus(); // Set focus to entry
+    newPosTest[0].focus(); // Set focus to new positive test
 });
