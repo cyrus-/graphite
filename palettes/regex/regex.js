@@ -291,6 +291,7 @@ $(function() {
 	function processSelection() { 
 	    // Grab editor selection if it exists
 	    var selectedText = graphite.getSelectedText();
+        var reinvoked = false; // tracking whether palette has been reinvoked
 	    // Extract regular expression and flag
 	    var patternRE = /Pattern\s*.\s*compile\s*\(\s*"(.*)"\s*(,[^\)]*Pattern\.CASE_INSENSITIVE)?[^\)]*\)/;
 	    var patternM = patternRE.exec(selectedText);
@@ -300,6 +301,7 @@ $(function() {
 	        entry.val(unescaped);
 	        var iFlagEntered = patternM[2];
 	        setIFlagStatus(!!iFlagEntered);
+            reinvoked = true;
 	    }
 	    
 		// Get tests from selection
@@ -334,9 +336,15 @@ $(function() {
 	            }
 	        }
 	    }
+
+        return reinvoked;
 	}
 	
-	processSelection();    
+	reinvoked = processSelection();  
 	runTests();
-    newPosTest[0].focus(); // Set focus to new positive test
+    if (reinvoked) {
+        entry[0].focus();
+    } else {
+        newPosTest[0].focus(); // Set focus to new positive test if not reinvoking
+    }
 });
